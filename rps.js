@@ -69,7 +69,7 @@ if (result === 'Win' || result === 'Lose') {
   document.querySelector('.result').innerHTML = `${result}.`;
 }
 
-document.querySelector(`.decisions`).innerHTML = `You <img class="pic" src="images/${playermove}-emoji.png"> - <img class="pic" src="images/${move}-emoji.png"> Computer`;
+document.querySelector(`.decisions`).innerHTML = `You <img class="pic" src="${playermove}-emoji.png"> - <img class="pic" src="${move}-emoji.png"> Computer`;
 
 update();
 }
