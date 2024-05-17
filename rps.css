@@ -1,0 +1,48 @@
+.bar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.box {
+  border: solid 3px white;
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+}
+.title {
+  font-family: arial;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.result {
+  font-family: arial;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.score {
+  font-family: arial;
+  color: white;
+}
+.bt {
+  background-color: rgb(237, 237, 237);
+  border: none;
+  height: 30px;
+  width: 110px;
+  cursor: pointer;
+}
+.decisions {
+  color: white;
+  font-family: arial;
+}

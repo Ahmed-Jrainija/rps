@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="rps.css">
+</head>
+<body style="background-color: rgb(26, 26, 26);">
+
+  <p class="title">Rock Paper Scissors</p>
+
+  <div class="bar">
+      <div class="box" onclick="playGame('Rock');">
+        <img class="pic" src="images/rock-emoji.png">
+      </div>
+    
+      <div class="box" onclick="playGame('Paper');">
+        <img class="pic" src="images/paper-emoji.png">
+      </div>
+    
+      <div class="box" onclick="playGame('Scissors');">
+        <img class="pic" src="images/scissors-emoji.png">
+      </div>
+  </div>
+
+  <p class="result"></p>
+
+  <p class="decisions"></p>
+
+  <p class="score">Wins: 0, Losses: 0, Ties: 0</p>
+
+  <button class="bt" onclick="
+  score.wins = 0;
+  score.losses = 0;
+  score.ties = 0;
+  localStorage.removeItem('score'); update();">
+    Reset Score
+  </button>
+
+  <script src="rps.js"></script>
+</body>
+</html>
